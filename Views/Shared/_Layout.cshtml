@@ -42,152 +42,21 @@
         </ul>
     </div>
 
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand logo" href="#1"><img src="~/images/logo.png" alt="" title=""></a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a asp-action="index" class="active">Главная</a></li>
-                    <li><a asp-action="about">О Компании</a></li>
-                    <li><a asp-action="investors">Инвесторам</a></li>
-                    <li><a asp-action="rules">Правила</a></li>
-                    <li><a asp-action="faq">FAQ</a></li>
-                    <li><a asp-action="news">Новости</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <vc:navbar></vc:navbar>
 
     @RenderBody()
 
     <div class="container text-center">
         <img class="bottom-logo" src="~/images/logo.png" alt="OPEN INVESTMENS" />
-
-        <div class="col-sm-8 col-sm-offset-2 text-center bonus-block">
-            <div class="col-md-3">
-                <a href="#1"><img src="../images/bonus-icon.png" /></a>
-            </div>
-            <div class="col-md-9">
-                <a href="#1">Получить бонус 10$</a>
-            </div>
-        </div>
     </div>
 
-    <div class="partners-block text-center">
-        <div class="container">
-            <div class="col-xs-12 col-sm-6 col-md-3 partner">
-                <img src="~/images/part1.png" alt="" title="">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 partner">
-                <img src="~/images/part2.png" alt="" title="">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 partner">
-                <img src="~/images/part3.png" alt="" title="">
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 partner">
-                <img src="~/images/part4.png" alt="" title="">
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="container">
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <h3>Ввод и вывод средств</h3>
-                <ul>
-                    <li>Perfect Money</li>
-                    <li>PAYEER</li>
-                    <li>NixMoney</li>
-                    <li>Advcash</li>
-                    <li>VISA</li>
-                    <li>Master Card</li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <h3>Защита и надежность</h3>
-                <ul>
-                    <li>EV SSL Comodo</li>
-                    <li>DDoS protection Cloudfare</li>
-                    <li>Kaspersky Security• Symantec</li>
-                    <li>Логи доступа</li>
-                    <li>Чувствительность к смене IP</li>
-                    <li>Чувствительность к смене браузера</li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <h3>О компании BWALL</h3>
-                <ul>
-                    <li>Партнерская программа</li>
-                    <li>Юридическая информация</li>
-                    <li>Вопросы и ответы</li>
-                </ul>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <h3>Наши контакты</h3>
-                <ul>
-                    <li>Mail: sup@bwall.com</li>
-                    <li>Tel: +7 904 35-35-35</li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-            <div class="logo-footer">
-                <img src="~/images/logo-footer.png" alt="" title=""></img>
-            </div>
-        </div>
-    </footer>
+    <vc:bonus></vc:bonus>
+    <vc:partners-block></vc:partners-block>
+    <vc:footer></vc:footer>
 
     <!-- Modal -->
-    <div id="login" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="right-top-decor"></div>
-                    <button type="button" class="close close-modal" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Some text in the modal.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div id="reg" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <div class="right-top-decor"></div>
-                    <button type="button" class="close close-modal"
-                            data-dismiss="modal">
-                        &times;
-                    </button>
-                    <h4 class="modal-title">Modal Header</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Some text in the modal.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
+    <vc:registration-modal></vc:registration-modal>
+    <vc:login-modal></vc:login-modal>
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
