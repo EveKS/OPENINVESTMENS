@@ -7,7 +7,8 @@
     font-size: 14px;
 }
 
-    .button-block a {
+    .button-block button {
+        border: none;
         text-transform: uppercase;
         padding: 20px 25px;
         display: inline-block;
@@ -15,7 +16,7 @@
         width: 160px;
     }
 
-        .button-block a:hover {
+        .button-block button:hover {
             box-shadow: 0px 0px 10px #333;
         }
 
@@ -29,4 +30,29 @@
     background: #000;
     color: #fff !important;
     border-radius: 0 30px 30px 0;
+}
+
+.right-top-decor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 4em;
+    width: 4em;
+}
+
+    .right-top-decor::after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        content: "";
+        border-left: 2em solid transparent;
+        border-bottom: 2em solid transparent;
+        border-right: 2em solid #fbdb2c;
+        border-top: 2em solid #fbdb2c;
+        border-top-right-radius: 4px;
+    }
+
+.close-modal {
+    color: #000;
+    font-stretch: extra-expanded;
 }

@@ -35,3 +35,23 @@
         .slide-descr h3:first-child {
             padding-bottom: 30px;
         }
+
+.right-decor {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 4em;
+    width: 4em;
+}
+
+    .right-decor::after {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        content: "";
+        border-left: 2em solid transparent;
+        border-bottom: 2em solid #fbdb2c;
+        border-right: 2em solid #fbdb2c;
+        border-top: 2em solid transparent;
+        border-top-right-radius: 4px;
+    }

@@ -1,15 +1,24 @@
-c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS
+C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS
 --output-path=obj\Release\netcoreapp2.0\
 --application-name=OPENINVESTMENS
---content-root=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\About.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\faq.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\Index.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\Investors.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\News.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\Rules.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Error.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\_Layout.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\_ValidationScriptsPartial.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\_ViewImports.cshtml
---file=c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\_ViewStart.cshtml
+--content-root=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\About.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\faq.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\Index.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\Investors.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\News.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Home\Rules.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\Autorization\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\Banner\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\Bonus\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\Footer\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\LoginModal\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\Navbar\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\PartnersBlock\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\RatesBlock\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Components\RegistrationModal\Default.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\Error.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\_Layout.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\_ViewImports.cshtml
+--file=C:\Users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\Views\_ViewStart.cshtml

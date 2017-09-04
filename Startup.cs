@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.ResponseCompression;
 using System.IO.Compression;
+using Microsoft.Net.Http.Headers;
 
 namespace OPENINVESTMENS
 {
@@ -68,7 +69,16 @@ namespace OPENINVESTMENS
                 app.UseExceptionHandler("/Home/Error");
             }
 
-            app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                OnPrepareResponse = content =>
+                {
+                    var time = 7 * 24 * 60 * 60;
+
+                    content.Context.Response.Headers[HeaderNames.CacheControl] = $"public,max-age={time}";
+                    content.Context.Response.Headers[HeaderNames.Expires] = DateTime.UtcNow.AddDays(7).ToString("R"); // Format RFC1123
+                }
+            });
 
             app.UseAuthentication();
 
