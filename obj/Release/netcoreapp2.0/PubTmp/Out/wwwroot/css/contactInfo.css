@@ -1,0 +1,28 @@
+﻿.contact-info {
+    padding: 0 0 60px;
+}
+
+    .contact-info h3 {
+        color: #2f1035;
+        font-size: 30px;
+        font-family: 'arno_proregular';
+        font-weight: bold;
+        padding: 55px 0 45px;
+    }
+
+    .contact-info p {
+        font-size: 18px;
+        padding: 0 0 5px;
+    }
+
+    .contact-info h4 {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0 0 15px;
+        font-family: 'arno_proregular';
+    }
+
+    .contact-info p span {
+        color: #a4a4a4;
+        font-family: 'arno_proregular';
+    }

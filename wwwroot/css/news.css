@@ -1,0 +1,64 @@
+﻿.news-list {
+    margin: 0 0 70px;
+}
+
+    .news-list h3 {
+        font-size: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        background: #000;
+        padding: 7px 0;
+        text-align: center;
+        font-weight: bold;
+        width: 320px;
+        float: left;
+        margin-right: 15px;
+    }
+
+strong {
+    font-weight: bold;
+}
+
+.count-news p {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0 0;
+}
+
+.news {
+    margin: 30px 0 0 0;
+    box-shadow: 10px 10px 30px #ccc;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    -ms-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    padding: 0 0 80px;
+    position: relative;
+}
+
+    .news:hover {
+        box-shadow: 10px 10px 30px #666;
+    }
+
+    .news h4 {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 0 0 0;
+        text-transform: uppercase;
+    }
+
+    .news p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 35px 0;
+    }
+
+.read-more {
+    width: 78px;
+    height: 78px;
+    background: url(../images/more.jpg) no-repeat top center;
+    position: absolute;
+    bottom: -80px;
+    right: 0px;
+}

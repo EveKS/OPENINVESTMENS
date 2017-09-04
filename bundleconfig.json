@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [
+      "wwwroot/css/site.css",
+      "wwwroot/css/reset.css",
+      "wwwroot/css/nav.css",
+      "wwwroot/css/banner.css",
+      "wwwroot/css/login.css",
+      "wwwroot/css/bonus.css",
+      "wwwroot/css/about.css",
+      "wwwroot/css/fonts.css",
+      "wwwroot/css/benefits.css",
+      "wwwroot/css/rates.css",
+      "wwwroot/css/partners.css",
+      "wwwroot/css/footer.css",
+      "wwwroot/css/innerPage.css",
+      "wwwroot/css/contactInfo.css",
+      "wwwroot/css/rules.css",
+      "wwwroot/css/faq.css",
+      "wwwroot/css/news.css",
+      "wwwroot/css/flags.css",
+      "wwwroot/css/media.css"
+    ]
+  }
+]

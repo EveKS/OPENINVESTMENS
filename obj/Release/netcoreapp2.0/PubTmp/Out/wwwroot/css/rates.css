@@ -1,0 +1,63 @@
+﻿.rates-block {
+    padding: 0 0 50px;
+}
+
+    .rates-block h2 {
+        font-size: 50px;
+        text-align: center;
+        padding: 0 0 30px;
+        font-family: 'arno_proregular';
+    }
+
+    .rates-block .rate {
+        text-align: center;
+        box-shadow: 5px 0px 30px #ccc;
+        -webkit-transition: all 0.6s ease 0s;
+        -moz-transition: all 0.6s ease 0s;
+        -o-transition: all 0.6s ease 0s;
+        -ms-transition: all 0.6s ease 0s;
+        transition: all 0.6s ease 0s;
+        padding: 0 0 70px;
+        background: url(../images/rate.jpg) no-repeat center 70px;
+    }
+
+        .rates-block .rate:hover {
+            box-shadow: 5px 0px 10px #666;
+            background: url(../images/rateh.jpg) no-repeat center 70px;
+        }
+
+    .rates-block h3 {
+        font-size: 30px;
+        font-family: 'arno_proregular';
+        padding: 20px 0 205px;
+    }
+
+    .rates-block p {
+        font-size: 20px;
+        font-family: 'arno_proregular';
+        padding: 10px 0;
+        border-bottom: 2px dotted #828282;
+        margin: 0 25px;
+        text-align: left;
+    }
+
+        .rates-block p span {
+            color: #828282;
+            text-align: right;
+        }
+
+    .rates-block li {
+        display: inline-block;
+        background: #15171c;
+        color: #fff;
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+        .rates-block li:nth-child(1) {
+            margin: 20px 0 0 25px;
+        }
+
+        .rates-block li:nth-child(2) {
+            margin: 20px 0 0 15px;
+        }

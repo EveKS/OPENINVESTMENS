@@ -1,0 +1,29 @@
+﻿.nav-container {
+    padding: 0 15px 0 15px;
+}
+
+.logo {
+    padding: 0;
+}
+
+.navbar-toggle {
+    border-color: #333;
+}
+
+    .navbar-toggle .icon-bar {
+        background: #333;
+    }
+
+
+.navbar a:not(.logo):hover,
+.navbar .active {
+    background: #fbdb2c !important;
+    border-radius: 30px;
+}
+
+.navbar a:not(.logo) {
+    margin-left: 1px;
+    font-size: 16px !important;
+    color: #000 !important;
+    padding: 6.5px !important;
+}

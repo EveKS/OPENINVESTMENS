@@ -1,0 +1,21 @@
+﻿.bonus-block {
+    background: url(../images/bonus.png) no-repeat top center;
+    height: 270px;
+}
+
+    .bonus-block img {
+        margin: 15px 15px 30px;
+        width: 118px;
+        height: 118px;
+    }
+
+    .bonus-block div:last-child a {
+        font-size: 36px;
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        background: #fbdb2c;
+        font-weight: bold;
+        padding: 20px;
+        font-family: 'arno_proregular';
+    }

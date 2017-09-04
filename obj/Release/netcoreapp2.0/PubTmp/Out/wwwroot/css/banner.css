@@ -1,0 +1,37 @@
+﻿.banner {
+    min-height: 648px !important;
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__1 {
+    background-image: url("../images/banner.jpg");
+}
+
+.banner__2 {
+    background-image: url("../images/inner-banner.jpg");
+}
+
+.yellow {
+    color: #fbdb2c;
+}
+
+.slide-descr {
+    background: rgba(0, 0, 0, 0.80);
+    top: 130px;
+    color: #fff;
+    padding: 50px 0;
+}
+
+    .slide-descr h3 {
+        padding: 0 15px;
+        font-size: 30px;
+    }
+
+        .slide-descr h3:first-child {
+            padding-bottom: 30px;
+        }

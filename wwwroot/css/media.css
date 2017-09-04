@@ -1,0 +1,154 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+@media only screen and (max-width : 878px) {
+    .nav > li > a {
+        padding: 10px 5px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    /*Disable Animation on Mobile Devices*/
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        animation: none !important;
+    }
+
+    .logo {
+        padding: 9px 0 0 !important;
+    }
+
+    .nav-container {
+        padding: 0 15px 0px 15px !important;
+    }
+
+    .nav > li > a {
+        padding: 10px 15px;
+    }
+}
+
+@media only screen and (max-width : 660px) {
+    .about-block h2 {
+        font-size: 40px !important;
+    }
+
+    .news-list h3 {
+        float: none !important;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .bonus-block a {
+        font-size: 30px !important;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .bonus-block a {
+        font-size: 24px !important;
+        padding: 15px 10px !important;
+    }
+
+    .logo-footer img {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
+/* ATHERTH */
+@media only screen and (max-width : 401px) {
+    .logo {
+        width: 75%;
+    }
+
+        .logo img {
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width : 387px) {
+    .bonus-block a {
+        font-size: 18px !important;
+        padding: 10px !important;
+    }
+
+    .button-block a {
+        padding: 20px 0px !important;
+        width: 45% !important;
+    }
+
+    .about-block h2 {
+        font-size: 35px !important;
+    }
+
+    .benefits-block h2 {
+        margin: 0 0 50px !important;
+    }
+
+    .news img {
+        width: 100%;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .nav-container {
+        margin-right: auto;
+        margin-left: auto;
+        width: 970px;
+    }
+
+    .bonus-block {
+        padding-top: 40px;
+    }
+
+
+        .bonus-block div:last-child {
+            margin-top: 63px !important;
+        }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .nav-container {
+        width: 1170px;
+    }
+
+    .bonus-block img {
+        margin: 15px 0 30px !important;
+        position: absolute;
+    }
+}

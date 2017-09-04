@@ -1,0 +1,18 @@
+﻿.flag-container {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.flags {
+    float: right;
+    padding: 8px 15px 15px 15px;
+}
+
+    .flags li {
+        padding: 5px;
+        float: left
+    }
+
+    .flags img {
+        width: 30px;
+    }

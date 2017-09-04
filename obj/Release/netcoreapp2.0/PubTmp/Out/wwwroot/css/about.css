@@ -1,0 +1,50 @@
+﻿.about-block .about-block__bg {
+    width: 100%;
+    background: url(../images/about.jpg) no-repeat center center;
+    min-height: 432px !important;
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-block h2 {
+    font-size: 50px;
+    text-align: center;
+    background: url(../images/h2.png) no-repeat center 2px;
+    font-family: 'arno_proregular';
+}
+
+.about-block hr {
+    background-color: #000;
+    height: 1px;
+    margin-top: 25px;
+    margin-bottom: 0 !important;
+}
+
+.about-block h3 {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    margin-left: -110px;
+    background-color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'arno_proregular';
+    padding: 15px;
+}
+
+.about-block h4 {
+    padding-top: 15px;
+    font-size: 18px;
+    color: #9d9d9d;
+    text-align: center;
+    font-family: 'arno_proregular';
+    margin: 50px 0 0;
+}
+
+.about-block p {
+    font-size: 22px;
+    font-family: 'arno_proregular';
+    line-height: 1.5;
+}

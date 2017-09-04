@@ -1,0 +1,16 @@
+﻿.rules {
+    padding: 40px 0 70px;
+}
+
+    .rules ol {
+        margin: 0 0 0 20px;
+    }
+
+    .rules li {
+        font-size: 24px;
+        margin: 0 0 10px;
+    }
+
+        .rules li:last-child {
+            margin: 0px;
+        }

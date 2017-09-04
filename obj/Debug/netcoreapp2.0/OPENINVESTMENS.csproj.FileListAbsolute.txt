@@ -1,0 +1,11 @@
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\bin\Debug\netcoreapp2.0\OPENINVESTMENS.deps.json
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\bin\Debug\netcoreapp2.0\OPENINVESTMENS.runtimeconfig.json
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\bin\Debug\netcoreapp2.0\OPENINVESTMENS.runtimeconfig.dev.json
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\bin\Debug\netcoreapp2.0\OPENINVESTMENS.dll
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\bin\Debug\netcoreapp2.0\OPENINVESTMENS.pdb
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\obj\Debug\netcoreapp2.0\OPENINVESTMENS.csproj.CoreCompileInputs.cache
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\obj\Debug\netcoreapp2.0\OPENINVESTMENS.AssemblyInfoInputs.cache
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\obj\Debug\netcoreapp2.0\OPENINVESTMENS.AssemblyInfo.cs
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\obj\Debug\netcoreapp2.0\OPENINVESTMENS.dll
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\obj\Debug\netcoreapp2.0\OPENINVESTMENS.pdb
+c:\users\eveks\documents\visual studio 2017\Projects\OPENINVESTMENS\OPENINVESTMENS\obj\Debug\netcoreapp2.0\OPENINVESTMENS.csprojResolveAssemblyReference.cache

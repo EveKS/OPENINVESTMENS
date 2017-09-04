@@ -1,0 +1,10 @@
+﻿@font-face {
+    font-family: 'arno_proregular';
+    src: url('../fonts/arno_pro-webfont.eot');
+    src: url('../fonts/arno_pro-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/arno_pro-webfont.woff2') format('woff2'),
+        url('../fonts/arno_pro-webfont.woff') format('woff'),
+        url('../fonts/arno_pro-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
