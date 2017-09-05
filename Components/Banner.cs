@@ -10,7 +10,7 @@ namespace OPENINVESTMENS.Components
     {
         public IViewComponentResult Invoke(bool isMain)
         {
-            return View();
+            return View(isMain);
         }
     }
 }

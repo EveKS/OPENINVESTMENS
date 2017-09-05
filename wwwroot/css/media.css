@@ -89,12 +89,12 @@
 }
 
 @media only screen and (max-width : 387px) {
-    .bonus-block a {
+    .bonus-block button {
         font-size: 18px !important;
         padding: 10px !important;
     }
 
-    .button-block a {
+    .button-block button {
         padding: 20px 0px !important;
         width: 45% !important;
     }
